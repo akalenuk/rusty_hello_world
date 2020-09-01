@@ -6,4 +6,7 @@ fn main() {
         println!("{}", x);}
     for x in xs.iter() {
         println!("{}", x);}
+    for i in 1..(3+1) {
+		let x = i as f64;
+        println!("{}", x);}
 }
