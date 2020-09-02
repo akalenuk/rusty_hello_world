@@ -15,4 +15,16 @@ fn main() {
 	for i in &is {
 		let x = *i as f64;
 		println!("{}", x);}
+	for x in &xs {
+		printf64(*x);}
+	for i in &is {
+		printi64(*i as i64);}
 }
+
+fn printf64(x:f64) {
+	println!("{}", x);}
+
+fn printi64(x:i64) {
+	let y = x as f64;
+	println!("{}", y);}
+
