@@ -25,6 +25,10 @@ fn main() {
 			2 => println!("II "),
 			3 => println!("III "),
 			_ => println!("what? ")}}
+	for i in is.iter() {
+		println!("{}", i);}
+	for (idx, i) in is.iter().enumerate() {
+		println!("{}: {}", idx, i);}
 }
 
 fn printf64(x:f64) {
