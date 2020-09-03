@@ -19,6 +19,12 @@ fn main() {
 		printf64(*x);}
 	for i in &is {
 		printi64(*i as i64);}
+	for i in &is {
+		match i {
+			1 => println!("I "),
+			2 => println!("II "),
+			3 => println!("III "),
+			_ => println!("what? ")}}
 }
 
 fn printf64(x:f64) {
